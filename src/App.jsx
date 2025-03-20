@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="app-container" style={{ border:"2px solid green", display: 'flex', flexDirection: 'column', height: '90vh', width:'96vw', padding: '20px', overflow: 'hidden' }}>
+    <div className="app-container" style={{ display: 'flex', flexDirection: 'column', height: '90vh', width:'96vw', padding: '20px', overflow: 'hidden' }}>
       <div className="header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', height: '60px' }}>
         <h1 style={{ margin: 0, fontSize: '24px' }}>
           {`${new Date(sampleData.date).toLocaleDateString('en-US', {
